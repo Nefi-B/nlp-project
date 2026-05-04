@@ -1,0 +1,20 @@
+All metric tests passed.
+
+Loading dataset...
+Total examples: 50000
+Training examples: 40000
+Test examples: 10000
+
+Training classifier...
+Predicting test set...
+
+Confusion Matrix
+TP: 4130
+FP: 611
+FN: 826
+TN: 4433
+
+Accuracy: 0.8563
+Precision: 0.8711
+Recall: 0.8333
+F1 Score: 0.8518
