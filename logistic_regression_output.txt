@@ -1,0 +1,407 @@
+Loading data...
+
+Data Used
+Reviews loaded: 1000
+Training reviews: 800
+Test reviews: 200
+Training CSV rows: 1 to 800
+Testing CSV rows: 801 to 1000
+
+Building vocabulary...
+Vocabulary size: 5000
+
+Training model...
+Epoch 1 Average loss: 0.6093 Time: 0.0075 seconds
+Epoch 2 Average loss: 0.4064 Time: 0.0067 seconds
+Epoch 3 Average loss: 0.3284 Time: 0.0066 seconds
+Epoch 4 Average loss: 0.2802 Time: 0.0071 seconds
+Epoch 5 Average loss: 0.2463 Time: 0.007 seconds
+
+Predicting...
+
+Confusion Matrix
+TP: 99
+FP: 16
+FN: 12
+TN: 73
+
+Accuracy: 0.86
+Precision: 0.8609
+Recall: 0.8919
+F1 Score: 0.8761
+
+Error Analysis
+Examples analyzed: 40
+CSV rows analyzed: 801 to 840
+
+Example 1
+CSV row: 801
+True label: Positive
+Predicted label: Positive
+Positive probability: 0.8296
+Result: Correct
+Explanation: Correct prediction. The model prediction matched the true sentiment.
+Review: If you want just about everything you want to know about WWII from multiple perspectives, this DVD delivers, you WILL learn new things guaranteed, so much so that you won't need any other documentary's on the subject. Get this, watch it, learn from it. Good for school use as well. As a bonus, watch this with Tora tora tora, saving private ryan, patton, band of brothers, a bridge too far, the longe...
+
+Example 2
+CSV row: 802
+True label: Positive
+Predicted label: Negative
+Positive probability: 0.2111
+Result: Wrong
+Explanation: Possible negation issue. Bag-of-Words may not fully understand phrases like 'not good'.
+Review: The movie was gripping from start to finish and its b/w photography of the American heartland is stunning. We feel we are right there with them as they cross the big sky country and then into Mexico and back to America again. Near the end of the movie, the reflection of the rain on Robert Blake looks like small rivers of sweat and tears rolling down his face. In the end, we follow them up the stai...
+
+Example 3
+CSV row: 803
+True label: Positive
+Predicted label: Negative
+Positive probability: 0.2789
+Result: Wrong
+Explanation: Possible negation issue. Bag-of-Words may not fully understand phrases like 'not good'.
+Review: This is a great show with total freshness and innovation. That usual chair (couch for a woman) host, that mandatory band playing monotonous tunes, the same old jokes, the same pattern copied from the days of Nebuchadnezzer ....probably the pattern of Johnny Carson, copied by one and all, Latterman, Leno, Conan... Daly, this show does not seem to have any of these.<br /><br />I fell in love with th...
+
+Example 4
+CSV row: 804
+True label: Positive
+Predicted label: Positive
+Positive probability: 0.8028
+Result: Correct
+Explanation: Correct prediction. The model prediction matched the true sentiment.
+Review: It's all about getting what you want when you want it. And the message of Bluebeard's Eighth WIfe is to be careful what you wish for, until what you wish for wishes for you.<br /><br />Most men have heard the stories about what happens when your sexual frustration isn't relieved and a certain part of your anatomy turning blue. Misogynistic pirates aside, Cooper plays a very wealthy man who is very...
+
+Example 5
+CSV row: 805
+True label: Positive
+Predicted label: Negative
+Positive probability: 0.2605
+Result: Wrong
+Explanation: Possible negation issue. Bag-of-Words may not fully understand phrases like 'not good'.
+Review: Now i have read some negative reviews for this show on this website and quite frankly I'm appalled. For anyone to even think that the Sopranos is not Television then i'm afraid i don't know what the world has come to. Let me tell u something. I started watching many T.V shows like Lost, Prison Break, Dexter, Deadwood and even Invasion. But all of those shows lost their touch after the first season...
+
+Example 6
+CSV row: 806
+True label: Negative
+Predicted label: Negative
+Positive probability: 0.0036
+Result: Correct
+Explanation: Correct prediction. The model prediction matched the true sentiment.
+Review: I'd give this a negative rating if I could. I went into this movie not expecting much, but I had an open mind. The whole thing is stupid! The snakes are obviously fake and the first two things they bite are a boob and a guys johnson. Oh how original; if I were a 12 year old boy I might laugh at that. I have no idea how this movie became so popular. Seriously,the worst thing I've ever seen. I wasn'...
+
+Example 7
+CSV row: 807
+True label: Positive
+Predicted label: Positive
+Positive probability: 0.5872
+Result: Correct
+Explanation: Correct prediction. The model prediction matched the true sentiment.
+Review: Most people are totally unaware that this movie exists. Fox, which paid Judge to make it, has kept it in the can for quite awhile and then spent nothing to promote it. I guess that made many people think it was one of the garbage movies being flushed in late summer. Well, I am here to tell you that this is a funny and rather frightening look at a future that is not that hard to believe. Basically,...
+
+Example 8
+CSV row: 808
+True label: Positive
+Predicted label: Positive
+Positive probability: 0.7444
+Result: Correct
+Explanation: Correct prediction. The model prediction matched the true sentiment.
+Review: This is a great, ridiculous horror movie that captures the essence of the mid to late 80s' obsession with how evil metal music supposedly was. I can remember being freaked out by metal teens when I was a kid. It doesn't help that I found a desecrated grave in my hometown's graveyard when I was ten. Turns out this weird metal kid had dug up some old bodies and used their bones in some weird sacrifi...
+
+Example 9
+CSV row: 809
+True label: Positive
+Predicted label: Positive
+Positive probability: 0.5603
+Result: Correct
+Explanation: Correct prediction. The model prediction matched the true sentiment.
+Review: While not quite as good as A Murder is Announced, which was not only delightful but almost surpassed the book, this is an excellent adaptation. And you know what, it is a huge improvement on the Geraldine McEwan version. Now I don't take pride in bad mouthing the Geraldine McEwan adaptations, two or three of them were surprisingly good, but others started off well but ruined by either a poor scrip...
+
+Example 10
+CSV row: 810
+True label: Negative
+Predicted label: Negative
+Positive probability: 0.1483
+Result: Correct
+Explanation: Correct prediction. The model prediction matched the true sentiment.
+Review: Good Lord, what were they THINKING??!!!!!! Here is your spoiler warning, even though I don't think it'll really matter. You won't be seeing this piece of trash anyway.<br /><br />A group of handpuppets go chasing after a group of really stupid people, who go on a really stupid hunt for them to try and kill them, and the puppets complicate things by letting them live out their really stupid fantasi...
+
+Example 11
+CSV row: 811
+True label: Negative
+Predicted label: Positive
+Positive probability: 0.8206
+Result: Wrong
+Explanation: Possible negation issue. Bag-of-Words may not fully understand phrases like 'not good'.
+Review: I had heard (and read) so many good things about Weeds that I was looking forward to getting hooked on another great cable Series (like Entourage, Sopranos or Mad Men) but that slowly eroded away with each episode I watched from Season One. (didn't make it past the first six episodes) <br /><br />The writing was unoriginal, contrived and the portrayal of Blacks embarrassing. The dialog felt forced...
+
+Example 12
+CSV row: 812
+True label: Positive
+Predicted label: Positive
+Positive probability: 0.9544
+Result: Correct
+Explanation: Correct prediction. The model prediction matched the true sentiment.
+Review: This movie is among my favorite foreign films, some of the others are Amilee and My Life As a Dog. The similarities with those movies as with so many great foreign films, is that it takes a mundane slice of life and transforms it into a profound heartfelt lesson. <br /><br />In Japan, a man who is bored with his mundane life and the rut of his married life, sees a beautiful Japanese woman staring ...
+
+Example 13
+CSV row: 813
+True label: Positive
+Predicted label: Positive
+Positive probability: 0.6362
+Result: Correct
+Explanation: Correct prediction. The model prediction matched the true sentiment.
+Review: As if the film were not of value in itself, this is an excellent way to get an overview of the novel as a preface to reading it. In the summer of 1968 I saw the film in NYC; that fall in graduate school, I read the book for the first time. Some of the pleasure in reading the novel was my memory of the scrupulously detailed film. And for better or worse--and I've now read and taught the novel for o...
+
+Example 14
+CSV row: 814
+True label: Positive
+Predicted label: Positive
+Positive probability: 0.8404
+Result: Correct
+Explanation: Correct prediction. The model prediction matched the true sentiment.
+Review: This film is a lyrical and romantic memoir told through the eyes an eleven year old boy living in a rural Cuban town the year of the Castro revolution. It is an obviously genuine worthy labor of love. <br /><br />The names CUBA LIBRE and CUBAN BLOOD are merely attempts to wrongly market this as an action film. DREAMING OF JULIA makes much more sense. It has more in common with European cinema than...
+
+Example 15
+CSV row: 815
+True label: Positive
+Predicted label: Positive
+Positive probability: 0.9898
+Result: Correct
+Explanation: Correct prediction. The model prediction matched the true sentiment.
+Review: I saw ZP when it was first released and found it a major disappointment. Its script seemed forced and arch and too fakey '60s. It's politics too upfront and ridiculous. And let's face it, I was still under a love-spell known as BLOWUP : and I still haven't completely shaken it. Now the "love" is twisted up with all sorts of nostalgia it evokes and, oh well . . . Good Luck to me!<br /><br />But tim...
+
+Example 16
+CSV row: 816
+True label: Negative
+Predicted label: Negative
+Positive probability: 0.4542
+Result: Correct
+Explanation: Correct prediction. The model prediction matched the true sentiment.
+Review: Very strange but occasionally elegant exploitation movie with no real story, but benefiting from its stunningly ravishing lead actress and a handful of nice, gruesome make-up effects. Daniella is a beautiful twenty-something girl, carrying with her the trauma of being raped at the age of 13. Nightmares and hallucinations lead her further into believing she's the reincarnation of a female ancestor ...
+
+Example 17
+CSV row: 817
+True label: Positive
+Predicted label: Positive
+Positive probability: 0.9619
+Result: Correct
+Explanation: Correct prediction. The model prediction matched the true sentiment.
+Review: This is an interesting, hard to find movie from the early 70's starring Jan Michael Vincent as a young man who doesn't make the cut as a marine. Dressed in 'baby blue' outfits to humiliate them as they are sent home, the failed recruits are sent packing. Vincent stops at a bar and runs into a very young Richard Gere who has just returned from a tour in the Pacific as a hard-core Marine 'Raider'. G...
+
+Example 18
+CSV row: 818
+True label: Positive
+Predicted label: Positive
+Positive probability: 0.7463
+Result: Correct
+Explanation: Correct prediction. The model prediction matched the true sentiment.
+Review: Johnny and June Carter Cash financed this film which is a traditional rendering of the Gospel stories. The music is great, you get a real feel of what the world of Jesus looked like (I've been there too), and June gets into the part of Mary Magdalene with a passion. Cash's narration is good too.<br /><br />But....<br /><br />1. The actor who played Jesus was miscast. 2. There is no edge to the sto...
+
+Example 19
+CSV row: 819
+True label: Positive
+Predicted label: Positive
+Positive probability: 0.865
+Result: Correct
+Explanation: Correct prediction. The model prediction matched the true sentiment.
+Review: Jäniksen vuosi is one of Jarva's most political movies. It takes stance strongly against modern day society's authority status in the life of the common man, and how it has estranged men from the nature completely. It challenges the whole concept of freedom and wealth in our welfare society.<br /><br />Vatanen (Antti Litja) - smothered buy the concrete jungle with all its rules and regulations - t...
+
+Example 20
+CSV row: 820
+True label: Negative
+Predicted label: Negative
+Positive probability: 0.0574
+Result: Correct
+Explanation: Correct prediction. The model prediction matched the true sentiment.
+Review: I love Jamie Foxx.<br /><br />And I enjoy 99% of all movies I see.<br /><br />And I walked out of this one.<br /><br />Now, I admit, it may have had something to do with the two middle-aged white women in the back of theatre who laughed at every little thing ("Oh no, Jamie's knocking on a door! HEE HEE HEE!"), but... this was just so incredibly annoying. There could be no sustained camera shot, an...
+
+Example 21
+CSV row: 821
+True label: Positive
+Predicted label: Positive
+Positive probability: 0.9476
+Result: Correct
+Explanation: Correct prediction. The model prediction matched the true sentiment.
+Review: After seeing Dick Tracy in the 6.99$ bin at Future Shop I decided to give it a go with no previous knowledge and being a big fan of Mafia and Crime movies. I was very surprised to see a very fun, smart entertaining movie with solid performances throughout. The movie moves along well, it has of course another solid performance from Warren Beatty, but the real standouts of the film are Al Pacino and...
+
+Example 22
+CSV row: 822
+True label: Positive
+Predicted label: Positive
+Positive probability: 0.6556
+Result: Correct
+Explanation: Correct prediction. The model prediction matched the true sentiment.
+Review: Send them to the freezer. This is the solution two butchers find after they discover the popularity of selling human flesh. An incredible story with humor and possible allegories that make it much more than a horror film. The complex characters defy superficial classification and make the story intriguing and worthwhile - if you can stand it. Definitely a dark film but also a bit redemptive.
+
+Example 23
+CSV row: 823
+True label: Positive
+Predicted label: Positive
+Positive probability: 0.6844
+Result: Correct
+Explanation: Correct prediction. The model prediction matched the true sentiment.
+Review: Wow! I picked this off the rental shelf because I loved Robert Carlyle and Jonny Lee Miller in 'Trainspotting.' This is a phenomenal movie; it has action, romance, suspense, intrigue and wit. When I wasn't laughing, I was at the edge of my seat. This is definitely a film I would recommend to people with an appreciation for intelligent dialogue and a fresh perspective of the 18th century. This film...
+
+Example 24
+CSV row: 824
+True label: Positive
+Predicted label: Positive
+Positive probability: 0.6503
+Result: Correct
+Explanation: Correct prediction. The model prediction matched the true sentiment.
+Review: I don't know why some people criticise that show so much.<br /><br />It is a great, funny show - probably not the right material for mainstream prime-time, but still...<br /><br />The family dynamics are funny, and all in all the same you see in most comedy shows. The supporting characters are absolutely hilarious. The plots of the individual episodes and the frequent Siegfried & Roy jibes are onl...
+
+Example 25
+CSV row: 825
+True label: Negative
+Predicted label: Negative
+Positive probability: 0.0002
+Result: Correct
+Explanation: Correct prediction. The model prediction matched the true sentiment.
+Review: Mexican Werewolf in Texas is set in the small border town of Furlough where Anna (Erika Fay) lives, her best friend is Rosie (Martine Hughes) & she has a Mexican boyfriend named Miguel (Gabriel Gutierrez) who are determined to track a beast down that has been terrorising the town, killing livestock & several residents including some of their friends. Local Mexican legends speak of the Chupacabra, ...
+
+Example 26
+CSV row: 826
+True label: Positive
+Predicted label: Positive
+Positive probability: 0.9564
+Result: Correct
+Explanation: Correct prediction. The model prediction matched the true sentiment.
+Review: I found this to be a surprisingly light-handed touch at a 1950's culture-clash movie. John Wayne would hardly be one's first choice as a cultural attache, being about as diplomatic with his good intentions as a bull-run in Harrods. But this time he was left to play a part that was far more passive than his usual bluff persona, and he accomplished his task with style. The Duke was a guy who really ...
+
+Example 27
+CSV row: 827
+True label: Positive
+Predicted label: Positive
+Positive probability: 0.6507
+Result: Correct
+Explanation: Correct prediction. The model prediction matched the true sentiment.
+Review: I was so glad I came across this short film. I'm always so disappointed that short films are hard to come across, so when I saw this and saw that it was nominated for the Live Action Short Film at the Academy Awards, I was so pleased that I actually had a film that I was rooting for.<br /><br />The plot is pretty simple, the director, writer, and star Nacho Vigalondo tried coming up with a reason ...
+
+Example 28
+CSV row: 828
+True label: Negative
+Predicted label: Negative
+Positive probability: 0.1669
+Result: Correct
+Explanation: Correct prediction. The model prediction matched the true sentiment.
+Review: I thought before starting with these movie that it might be a good one, but when i started with it i found it really awful. They said movie is being made in Afghanistan but i think 95% of the movie is shot in India. you can see Indian made cars. you can see lars drinking bisleri(an Indian water brand), Hindi written on the road, you can also see temples in Afghanistan *hahah* its really funny and ...
+
+Example 29
+CSV row: 829
+True label: Negative
+Predicted label: Negative
+Positive probability: 0.0059
+Result: Correct
+Explanation: Correct prediction. The model prediction matched the true sentiment.
+Review: Truly appalling waste of space. Me and my friend tried to watch this film to its conclusion but had to switch it off about 30 minutes from the end. And i can count the films I have switched off before the end on one hand.<br /><br />The script and direction are leaden and deeply uninspiring. I wouldn't be surprised if they found the script in a pile of cast off scripts from 1983. For example the i...
+
+Example 30
+CSV row: 830
+True label: Negative
+Predicted label: Negative
+Positive probability: 0.1863
+Result: Correct
+Explanation: Correct prediction. The model prediction matched the true sentiment.
+Review: In this movie, Chávez supporters (either venezuelan and not-venezuelan) just lie about a dramatic situation in our country. <br /><br />They did not say that the conflict started because of Chávez announcement firing a lot of PDVSA best workers just for political issues.<br /><br />They did not say anything about more than 96 TV interruptions transmitted by Chávez during only 3 days in "CADENA NAC...
+
+Example 31
+CSV row: 831
+True label: Negative
+Predicted label: Positive
+Positive probability: 0.6131
+Result: Wrong
+Explanation: Possible negation issue. Bag-of-Words may not fully understand phrases like 'not good'.
+Review: One could wish that an idea as good as the "invisible man" would work better and be more carefully handled in the age of fantastic special effects, but this is not the case. The story, the characters and, finally the entire last 20 minutes of the film are about as fresh as a mad-scientist flick from the early 50's. There are some great moments, mostly due to the amazing special effects and to the ...
+
+Example 32
+CSV row: 832
+True label: Positive
+Predicted label: Positive
+Positive probability: 0.9558
+Result: Correct
+Explanation: Correct prediction. The model prediction matched the true sentiment.
+Review: OK, so it owes Pulp Fiction, but in my opinion has it's own voice and identity mainly because of the music-video direction style, sketch-like narrative and great performances. Thomas Jane delivers great (the drug-dealer show-down is extraordinary), Aaron Eckhart likewise. James LeGros has a short and effervescent appearance-great humor-"they got the Wong house". The Porzikova interrogation and rap...
+
+Example 33
+CSV row: 833
+True label: Positive
+Predicted label: Positive
+Positive probability: 0.9777
+Result: Correct
+Explanation: Correct prediction. The model prediction matched the true sentiment.
+Review: As far as I know the real guy that the main actor is playing saw his performance and said it was an outstanding portrayal, I'd agree with him. This is a fantastic film about a quite gifted boy/man with a special body part helping him. Oscar and BAFTA winning, and Golden Globe nominated Daniel Day-Lewis plays Christy Browna crippled man with cerebral palsy who spends most of his life on the floor, ...
+
+Example 34
+CSV row: 834
+True label: Negative
+Predicted label: Negative
+Positive probability: 0.0955
+Result: Correct
+Explanation: Correct prediction. The model prediction matched the true sentiment.
+Review: All I ever heard while being raised was equality of the sexes, and here we have a film that not only exemplifies imbalance, but continues through with a whole concept that one sex is better. All the while watching I was hoping for that redeeming quality to make the viewer feel as though there is hope for the future, and there wasn't. I'll admit to not finishing the film, I had to turn it off at th...
+
+Example 35
+CSV row: 835
+True label: Negative
+Predicted label: Negative
+Positive probability: 0.1752
+Result: Correct
+Explanation: Correct prediction. The model prediction matched the true sentiment.
+Review: I do regret that I have bought this series. I expected more action, more objective picture and more consistency. This is just a pure propaganda series, very dark, without any charm, or romanticism, it is just boredom itself. I find the actors work quite weak as well. O'Donnell might seem charming as Robin (with Batman), but in this picture he lacks any charm. Probably while he becomes older, he is...
+
+Example 36
+CSV row: 836
+True label: Positive
+Predicted label: Positive
+Positive probability: 0.5298
+Result: Correct
+Explanation: Correct prediction. The model prediction matched the true sentiment.
+Review: The story has been told before. A deadly disease is spreading around... But the extra in this film is Peter Weller, his interpretation of Muller on the run is real. He is indeed a desperate person just going home to see his child. This person could be working next to you.
+
+Example 37
+CSV row: 837
+True label: Negative
+Predicted label: Positive
+Positive probability: 0.5101
+Result: Wrong
+Explanation: Possible negation issue. Bag-of-Words may not fully understand phrases like 'not good'.
+Review: This film was very well advertised. I am an avid movie goer and have seen previews for this movie for months. While I was somewhat skeptical of how funny this movie would actually be, my friends thought it was going to be great and hyped me up about it. Then I went and saw it, I was sunk down in my seat almost asleep until I remembered that I had paid for this movie. I made myself laugh at most of...
+
+Example 38
+CSV row: 838
+True label: Positive
+Predicted label: Positive
+Positive probability: 0.7312
+Result: Correct
+Explanation: Correct prediction. The model prediction matched the true sentiment.
+Review: As far as I know this was my first experience with Icelandic movies. It's such a relief to see something else than your regular Hollywood motion picture. Too bad that movies like this one have a small chance of succeeding in the big world. I can only hope that people watch this by accident, by recommendation or other...<br /><br />Because it's really worth while. I left the cinema feeling really s...
+
+Example 39
+CSV row: 839
+True label: Positive
+Predicted label: Negative
+Positive probability: 0.414
+Result: Wrong
+Explanation: Possible negation issue. Bag-of-Words may not fully understand phrases like 'not good'.
+Review: Very typical Almodóvar of the time and, in its own way, no less funny than many of his later works. And why is that? There is nothing to be provoked or shocked about, and I guess any such effect is more coincidental than intentional. No, the great humor stems from an underlying, almost surreal, absurdity that is woven into the scenery: The characters' nearly complete lack of taboo. It's the same k...
+
+Example 40
+CSV row: 840
+True label: Positive
+Predicted label: Negative
+Positive probability: 0.4957
+Result: Wrong
+Explanation: Possible mixed-sentiment issue. The review may contain both positive and negative opinions.
+Review: Once again, Doctor Who delivers the goods by the bucket load. It has humour ("You're just making it up as you go along!" "Yup, but I do it brilliantly"), action, monsters (in this case still more kick-ass cybermen), tragedy and scare tactics. In short, just what the doctor ordered (pun intended). The way that the emotions move from one to the other is done so well that there is no feeling of "get ...
+
+Error Analysis Summary
+Correct examples: 32
+Wrong examples: 8
+Accuracy on these examples: 0.8
+
+Runtime Summary
+Loading data: 0.0071 seconds
+Building vocabulary: 0.0668 seconds
+Training model: 0.0981 seconds
+Prediction/testing: 0.0155 seconds
+Total program time: 0.1929 seconds
